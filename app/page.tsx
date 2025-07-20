@@ -1,17 +1,18 @@
+import MagneticDownloadButton from "@/components/MagneticDownloadButton"
+
 export default function Resume() {
   return (
     <div className='flex justify-center py-8 px-4 bg-gray-100 min-h-screen'>
-      {/* Overall document container with exact width */}
+        <div className="fixed top-6 right-6 z-50">
+        <MagneticDownloadButton />
+      </div>
       <div className='w-[8.5in] h-[11in] shadow-lg flex font-sans text-sm overflow-hidden'>
-        {/* ---------- LEFT COLUMN ---------- */}
         <div className='w-[3in] bg-resume-bg-light-gray text-resume-text-medium pt-[30px] pr-[26px] pb-[30px] pl-[30px] flex flex-col justify-between'>
           <div>
-            {/* Name */}
             <h1 className='text-resume-text-dark text-[39px] font-bold uppercase leading-[51px] mb-8 tracking-[1.44px] whitespace-nowrap overflow-visible relative z-10'>
               ANINDOW SAIKAT
             </h1>
 
-            {/* Contact */}
             <section className='mb-[42px] mt-20'>
               <h2 className='text-black text-[15px] font-bold uppercase pb-1 mb-[15px] leading-[22px] relative '>
                 CONTACT
@@ -33,7 +34,6 @@ export default function Resume() {
               </div>
             </section>
 
-            {/* Education */}
             <section className='mb-[42px]'>
               <h2 className='text-black text-[15px] font-bold uppercase pb-1 mb-[15px] leading-[22px] relative'>
                 EDUCATION AND TRAINING
@@ -85,7 +85,7 @@ export default function Resume() {
               <ul className='list-disc list-inside space-y-1 pl-[8px]'>
                 <li>
                   <a
-                    href='facebook.com/anindowS'
+                    href='https://www.facebook.com/AnindowS/'
                     className='text-resume-light-blue hover:underline'
                   >
                     facebook.com/anindowS
@@ -93,7 +93,7 @@ export default function Resume() {
                 </li>
                 <li>
                   <a
-                    href='https://www.facebook.com/AnindowS/'
+                    href='https://github.com/Anindow'
                     className='text-resume-light-blue hover:underline'
                   >
                     github.com/Anindow
@@ -104,7 +104,6 @@ export default function Resume() {
           </div>
         </div>
 
-        {/* ---------- RIGHT COLUMN ---------- */}
         <div className='w-[5.5in] bg-white text-resume-text-medium pt-[30px] pr-[36px] pb-[30px] pl-[30px] relative mt-[-20px] '>
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -126,7 +125,6 @@ export default function Resume() {
             </text>
           </svg>
 
-          {/* Summary */}
           <section className=''>
             <h2 className='text-black text-[15px] font-bold uppercase pb-1 mb-[15px] leading-[22px] relative mt-[-220px]'>
               SUMMARY
@@ -142,7 +140,6 @@ export default function Resume() {
             </p>
           </section>
 
-          {/* Skills */}
           <section className='mb-[42px]'>
             <h2 className='text-black text-[15px] font-bold uppercase pb-1 leading-[22px] relative mb-[15px] mt-4'>
               SKILLS
@@ -162,14 +159,12 @@ export default function Resume() {
             </div>
           </section>
 
-          {/* Experience */}
           <section>
             <h2 className='text-black text-[15px] font-bold uppercase pb-1 mb-[15px] leading-[22px] relative -mt-[22px]'>
               EXPERIENCE
               <div className='absolute bottom-[-6px] left-0 w-[48px] h-[1px] bg-black ' />
             </h2>
 
-            {/* Current job */}
             <div className='mb-[8px]'>
               <h3 className='font-bold'>Support Engineer</h3>
               <p>AdaSoft Internal Ltd. | Dhaka, Bangladesh</p>
@@ -192,7 +187,6 @@ export default function Resume() {
               </ul>
             </div>
 
-            {/* Previous job */}
             <div>
               <h3 className='font-bold'>Junior Developer</h3>
               <p>Code Arctic | Dhaka, Bangladesh</p>
