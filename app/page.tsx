@@ -3,7 +3,7 @@ import MagneticDownloadButton from "@/components/MagneticDownloadButton"
 export default function Resume() {
   return (
     <div className='flex justify-center py-8 px-4 bg-gray-100 min-h-screen'>
-        <div className="fixed top-6 right-6 z-50">
+      <div className='fixed top-6 right-6 z-50'>
         <MagneticDownloadButton />
       </div>
       <div className='w-[8.5in] h-[11in] shadow-lg flex font-sans text-sm overflow-hidden'>
@@ -29,7 +29,7 @@ export default function Resume() {
                 </div>
                 <div className='relative pl-[22px]'>
                   <div className='rounded-full bg-resume-light-blue absolute left-0 top-0 flex-shrink-0 w-2.5 h-2.5 mx-[px] mt-[5px]' />
-                  <span>Dhaka, 1230 Bangladesh</span>
+                  <span>Uttara-11, Dhaka-1230, Bangladesh</span>
                 </div>
               </div>
             </section>
@@ -42,26 +42,26 @@ export default function Resume() {
               <div className='space-y-[8px]'>
                 <div>
                   <p className='text-[14px] text-gray-600'>02/2022</p>
-                  <p className='font-bold leading-[12px]'>
+                  <p className='font-bold leading-[18px]'>
                     Bachelor of Science - Computer Science And Engineering
                   </p>
-                  <p className='text-[10px] leading-[12px]'>
+                  <p className='text-[12px] leading-[14px] mt-2'>
                     Daffodil International University
                   </p>
                 </div>
                 <div>
                   <p className='text-[14px] text-gray-600'>2016</p>
-                  <p className='font-bold leading-[12px]'>HSC - Science</p>
-                  <p className='text-[10px] leading-[12px]'>
+                  <p className='font-bold  leading-[18px]'>HSC - Science</p>
+                  <p className='text-[12px] leading-[12px]'>
                     Government P.C. College, Bagerhat
                   </p>
-                  <p className='text-[10px] leading-[12px]'>
+                  <p className='text-[10px] leading-[10px]'>
                     Bagerhat, Bangladesh
                   </p>
                 </div>
                 <div>
                   <p className='text-[14px] text-gray-600'>2014</p>
-                  <p className='font-bold leading-[12px]'>SSC - SSC</p>
+                  <p className='font-bold leading-[18px]'>SSC - Science</p>
                   <p className='text-[10px] leading-[12px]'>
                     Government P.C. College, Bagerhat
                   </p>
@@ -75,14 +75,28 @@ export default function Resume() {
             {/* Websites */}
             <section>
               <h2 className='text-black text-[15px] font-bold uppercase pb-1 mb-[15px] leading-[22px] relative'>
-                WEBSITES,
-                <br />
-                PORTFOLIOS,
+                WEBSITES, PORTFOLIOS,
                 <br />
                 PROFILES
                 <div className='absolute bottom-[-6px] left-0 w-[48px] h-[1px] bg-black' />
               </h2>
               <ul className='list-disc list-inside space-y-1 pl-[8px]'>
+              <li>
+                  <a
+                    href='https://www.linkedin.com/in/anindow'
+                    className='text-resume-light-blue hover:underline'
+                  >
+                    linkedin.com/in/anindow
+                  </a>
+                </li>
+              <li>
+                  <a
+                    href='https://github.com/Anindow'
+                    className='text-resume-light-blue hover:underline'
+                  >
+                    github.com/Anindow
+                  </a>
+                </li>
                 <li>
                   <a
                     href='https://www.facebook.com/AnindowS/'
@@ -91,12 +105,14 @@ export default function Resume() {
                     facebook.com/anindowS
                   </a>
                 </li>
+                
+
                 <li>
                   <a
-                    href='https://github.com/Anindow'
+                    href='https://x.com/AnindowS'
                     className='text-resume-light-blue hover:underline'
                   >
-                    github.com/Anindow
+                    x.com/AnindowS
                   </a>
                 </li>
               </ul>
@@ -193,14 +209,14 @@ export default function Resume() {
               <p className='text-[14px] text-gray-600'>10/2021 - 02/2024</p>
               <ul className='list-disc list-inside space-y-1 pl-[8px] mt-[6px]'>
                 <li>
-                  Developed dynamic web applications using{" "}
+                  Developed dynamic web applications using
                   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                     Next.js
-                  </a>{" "}
-                  and{" "}
+                  </a>
+                  and
                   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
@@ -210,64 +226,64 @@ export default function Resume() {
                   .
                 </li>
                 <li>
-                  Gained foundational experience in{" "}
+                  Gained foundational experience in
                   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                     Nuxt.js
-                  </a>{" "}
+                  </a>
                   for server-side rendering projects.
                 </li>
                 <li>
-                  Familiar with{" "}
+                  Familiar with
                   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
-                    Parcel
-                  </a>{" "}
-                  and{" "}
+                    Parcel 
+                  </a>
+                  and
                   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                     Vite
-                  </a>{" "}
+                  </a>
                   for runtime site optimization.
                 </li>
                 <li>
-                  Contributed to{" "}
+                  Contributed to 
                   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
-                    Laravel
-                  </a>{" "}
-                  projects (also{" "}
+                    Laravel 
+                  </a>
+                  projects (also
                   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
-                    Lumen
+                    Lumen 
                   </a>
                   ), enhancing overall functionality.
                 </li>
                 <li>
-                  Leveraged{" "}
+                  Leveraged 
                   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
-                    Bootstrap
-                  </a>{" "}
-                  4, 5, and{" "}
+                    Bootstrap 
+                  </a>
+                  4, 5 and 
                   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
-                    Tailwind
-                  </a>{" "}
+                     Tailwind 
+                  </a>
                   3, 4 in conjunction with native CSS.
                 </li>
               </ul>
