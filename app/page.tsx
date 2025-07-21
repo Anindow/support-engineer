@@ -210,80 +210,80 @@ export default function Resume() {
               <ul className='list-disc list-inside space-y-1 pl-[8px] mt-[6px]'>
                 <li>
                   Developed dynamic web applications using
-                  <a
+                 {" "} <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
-                    Next.js
-                  </a>
+                    Next.js{" "}
+                  </a>{" "}
                   and
-                  <a
+                 {" "} <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                     React.js
                   </a>
-                  .
+                  .{" "}
                 </li>
                 <li>
                   Gained foundational experience in
-                  <a
+                {" "}  <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                     Nuxt.js
-                  </a>
+                  </a>{" "}
                   for server-side rendering projects.
                 </li>
                 <li>
                   Familiar with
-                  <a
+                 {" "} <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                     Parcel 
-                  </a>
+                  </a>{" "}
                   and
-                  <a
+                {" "}  <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                     Vite
-                  </a>
+                  </a>{" "}
                   for runtime site optimization.
                 </li>
                 <li>
                   Contributed to 
-                  <a
+               {" "}   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                     Laravel 
-                  </a>
+                  </a>{" "}
                   projects (also
-                  <a
+               {" "}   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                     Lumen 
-                  </a>
+                  </a>{" "}
                   ), enhancing overall functionality.
                 </li>
                 <li>
                   Leveraged 
-                  <a
+                 {" "} <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                     Bootstrap 
-                  </a>
-                  4, 5 and 
+                  </a>{" "}
+                  4, 5 and {" "}
                   <a
                     href='#'
                     className='text-resume-light-blue hover:underline'
                   >
                      Tailwind 
-                  </a>
+                  </a>{" "}
                   3, 4 in conjunction with native CSS.
                 </li>
               </ul>
