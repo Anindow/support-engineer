@@ -63,8 +63,7 @@ export default function Resume() {
                   <p className='text-[14px] text-gray-600'>2014</p>
                   <p className='font-bold leading-[18px]'>SSC - Science</p>
                   <p className='text-[10px] leading-[12px]'>
-                    Government P.C. College, Bagerhat
-                  </p>
+                    Sirajul Haque Government High School       </p>
                   <p className='text-[10px] leading-[12px]'>
                     Nazirpur, Pirojpur
                   </p>
